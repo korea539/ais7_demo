@@ -2,7 +2,8 @@
 
 * 멋쟁이 사자처럼 AIS7 실습
 
-
+<img src = "photo-1665686310974-2ed1eb7f57ac.avif">
+<img src = "https://unsplash.com/photos/7o3nRaa0_tE">
 
 # 제목 1
 * 내용 1
