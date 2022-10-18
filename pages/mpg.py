@@ -57,11 +57,11 @@ sns.barplot(data=data, x="origin", y="mpg").set_title("origin 별 자동차 연�
 st.pyplot(fig)
 
 figb, axb = plt.subplots(figsize = (10, 3))
-sns.countplot(data = data, x = "origin")
+sns.countplot(data = data, x = "origin").set_title("origin 숫자")
 st.pyplot(figb)
 
 figc, axc = plt.subplots(figsize = (10, 3))
-sns.pointplot(data = data, x = "weight", y = "horsepower", title = "무게 별 마력")
+sns.pointplot(data = data, x = "cylinders", y = "horsepower").set_title("실린더 별 마력")
 st.pyplot(figc)
 
 pxh = px.histogram(data, x = "origin", title = "지역별 자동차 연비 데이터 수")
